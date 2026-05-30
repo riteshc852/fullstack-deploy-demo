@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: [
-        "http://localhost:5173", "http://localhost:5174" , "http://localhost:3000" , "http://13.201.86.163:5000"],
+        "http://localhost:5173", "http://localhost:5174" , "http://localhost:3000" , "http://13.201.86.163:5173"],
   }),
 );
 
