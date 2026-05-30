@@ -60,7 +60,7 @@ cd fullstack-deploy-demo
 2. Build and start the application:
 
 ```bash
-docker-compose up --build
+sudo docker-compose up --build
 ```
 
 
