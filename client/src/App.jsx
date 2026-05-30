@@ -6,6 +6,7 @@ function App() {
     "message isnt passed from server",
   );
   useEffect(() => {
+    // or use .ENV variable 
     fetch("http://add_your_ip:5000/api/message")
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
