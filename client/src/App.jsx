@@ -6,7 +6,7 @@ function App() {
     "message isnt passed from server",
   );
   useEffect(() => {
-    fetch("http://13.201.86.163/:5000/api/message")
+    fetch("http://13.201.86.163:5000/api/message")
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
       .catch((err) => {
